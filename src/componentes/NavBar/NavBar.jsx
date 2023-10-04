@@ -5,6 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import CartWidget from './CartWidget/CartWidget';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
+
 const NavBar = () => {
 
 
@@ -29,11 +30,13 @@ return (
     
     </NavDropdown>
     </Nav>
-    <Nav>
-0<CartWidget />
+    <Nav as={Link} to = "cart">
+
+<CartWidget />  
+</Nav>
         <Nav.Link href="#deets"  ></Nav.Link>
         <Nav.Link eventKey={2} href="#memes">Mi cuenta </Nav.Link>
-    </Nav>
+  
 </Navbar.Collapse>
 </Container>
 </Navbar>

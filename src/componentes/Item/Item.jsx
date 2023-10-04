@@ -1,9 +1,8 @@
 
 import {Link} from "react-router-dom"
 import "./Item.css"
-
 const Item = ({product}) => {
-
+console.log("rende de item");
     return(
 
         <div className="s">
