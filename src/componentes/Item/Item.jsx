@@ -1,11 +1,14 @@
 
 import {Link} from "react-router-dom"
 import "./Item.css"
+
+
+
 const Item = ({product}) => {
-console.log("rende de item");
+
     return(
 
-        <div className="s">
+        <div className="producto">
             <div className="card-body">
                 <img className= "img" src={product.img} alt="img" />
                 <p className="texto"> {product.name}</p>

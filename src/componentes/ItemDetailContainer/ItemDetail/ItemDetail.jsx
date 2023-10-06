@@ -2,12 +2,11 @@
 import { useState } from "react";
 import { CartContext, useCartContext } from "../../../Context/CartContext";
 import ItemCount from "../../ItemCount/ItemCount";
-
-
-
-
 import { Link } from "react-router-dom";
 import "./ItemDetail.css" 
+
+
+
 const ItemDetail = ({product}) => {
 
     const [isCounter, setIsCounter]= useState (true)
@@ -21,14 +20,15 @@ const ItemDetail = ({product}) => {
 return (
     <div className="det">
         
-        <h1>Detalle del Producto</h1>
+        <h1 className="detalle-titulo">Detalle del Producto</h1>
 
-        <div className='row'>
-            <div className='col'>
-                <img  className= "img" src={product.img} alt="img" />
+        <div className='row detalle-prod'>
+            <div className='col container-detalle '>
+                <img  className= "img w-25 " src={product.img} alt="img" />
                 <p className="texto"> {product.name}</p>
                 <p className="texto"> {product.description}</p>
                 <p className="texto">Precio:$ {product.price}</p>
+        
         <div className="col">
         {isCounter ? 
         <ItemCount inicial={1} stock={100} onAdd={onAdd}/>
@@ -43,7 +43,6 @@ return (
         </>
         }
         </div>
-        
             </div>
         </div>
     </div>
