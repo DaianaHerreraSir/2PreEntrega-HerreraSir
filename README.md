@@ -1,8 +1,17 @@
-# React + Vite
+ecommerce-herrerasir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nombre: Herrera Sir Daiana 
+Email: dherrerasir@gmail.com
 
-Currently, two official plugins are available:
+DEPLOY-DEMO:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://ecommerce-herrerasir.netlify.app/
+
+LiBRERIAS:
+
+BOOTSTRAP -"^5.3.1" ------ es un framework que construir páginas web responsives y darle estilo de una forma más rápida y sencilla
+
+REACT-DOM: "^18.2.0" ----- librería que se encarga de renderizar los componentes de React para el navegador
+
+REACT-ROUTER-DOM - "^6.15.0 ----es una librería que se utiliza para facilitar el proceso de definir las rutas de navegación dentro de nuestra aplicación.
+
